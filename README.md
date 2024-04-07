@@ -48,9 +48,6 @@ The idea behind a Bayesian hyperparameter search is to build a probabilistic mod
 Hugging Face is a framework for building applications using machine learning systems. The framework is especially optimized for NLP tasks and specifically working with Transformers. We used hugging face throughout the entire project - from importing the pretrained BERT model, integrating the LoRA method, and connecting to wandb in order to perform the hyperparameter tuning. The (relative) simplicity of using hugging face allowed to abstract the fine details on focus on the high-level concepts we were trying to implement in our project.
 
 
-### Ethical Considerations
-
-Respecting intellectual property rights of artists in the field. Ensuring transparency between streaming services and both artists -  for transparent use of their data, and users - for maintaining their privacy in data collection and registration of their listening habits.
 ## Experiments and Results
 
 ### Datasets
