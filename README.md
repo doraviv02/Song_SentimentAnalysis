@@ -12,9 +12,9 @@ Fine-tuning of BERT model for the purposes of Sentiment Analysis
 - Experiments & Results
 - Conclusions & Future Work
 - How to run
-- Ethics
-## Introduction
+- References
 
+## Introduction
 
 Our project focuses on sentiment analysis in the music domain, leveraging the power of Natural Language Processing (NLP). By analyzing song lyrics, we gain valuable insights for tasks like music recommendation and playlist generation. Our approach involves fine-tuning a BERT model, known for its contextual understanding, making it ideal for sentiment analysis tasks.
 
@@ -47,19 +47,6 @@ The idea behind a Bayesian hyperparameter search is to build a probabilistic mod
 Hugging Face is a framework for building applications using machine learning systems. The framework is especially optimized for NLP tasks and specifically working with Transformers. We used hugging face throughout the entire project - from importing the pretrained BERT model, integrating the LoRA method, and connecting to wandb in order to perform the hyperparameter tuning. The (relative) simplicity of using hugging face allowed to abstract the fine details on focus on the high-level concepts we were trying to implement in our project.
 
 
-## Ethics
-
-### Stake Holders
-Musicians, Streaming Services, and listeners.
-### Implications
-Musicians may dislike their music being used for training and regression without their explicit consent. They may also dislike that their music, an artistic expression, is being quantified into such a scale.
-
-Streaming services may enjoy the use of such algorithms in order to automatically assign a valence factor to new songs coming into the service, without Relying solely on user input. On the other hand, they might also dislike the use of their data to train the model without explicit consent.
-
-Listeners may appreciate the ability of streaming services to use the model in order to automatically recommend songs that align with their mood (such as an auto generated playlist of happy music). On the other hand this may disturb their listening experience and feel like it is a breach to their private listening habits.
-
-End-users of musical applications such as Spotify, Apple Music, etc. may enjoy a listening experience better tuned to their expectations of happy/sad music, but it may come to the detriment of the musicians who may not wish to have their songs categorized to such scale.
-
 ### Ethical Considerations
 
 Respecting intellectual property rights of artists in the field. Ensuring transparency between streaming services and both artists -  for transparent use of their data, and users - for maintaining their privacy in data collection and registration of their listening habits.
@@ -78,32 +65,34 @@ reasonable amount of time.
 For the final training of the model we chose to take 40% of the data, around
 60k songs, and divide them up to train/test with a ratio of 80/20.
 
-## Hyperparameter Tuning:
+### Hyperparameter Tuning:
 
-<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Hyperparameters.png" width="1000">
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Hyperparameter.png" width="400">
 
 Running 12 trials of tuning while adjust the learning rate, weight decay, scheduler and LoRA rank.
 
 We chose the best trial, which did not display early overfitting and trained using his parameters for 12 epochs:
 
-<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Training_Model.png" width="1000">
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Training_Model.png" width="400">
 
 
 Comparing our architecture with a frozen BERT model with trained regression head:
 
-<p float="left">
-  <img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Train.png" width="500">
-<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Test.png" width="500">
-</p>
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Train.png" width="200">
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Test.png" width="200">
 
 ## Conclusion and Future Work
 
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2(https://twitter.com/)
+## 🔗 References
+[1] [150K Lyrics Labeled with Spotify Valence](https://www.kaggle.com/datasets/edenbd/150k-lyrics-labeled-with-spotify-valence) 
 
+[2] [BERT: Pre-training of Deep Bidirectional Transformers for Language Un-
+derstanding](https://arxiv.org/pdf/1810.04805.pdf) 
+
+[3] [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2106.09685.pdf) 
+
+[4] [Hugging Face](https://huggingface.co/docs/transformers/en/tasks/sequence\_classification)
 
 ## Authors
 
