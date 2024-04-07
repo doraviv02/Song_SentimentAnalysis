@@ -102,11 +102,19 @@ There is a lot to be done in regard to improvements to our model in order to bet
 The notebook is divided into sections. Depending on the use case, run each section independently. You can run hyperparameter Sweep (optimization), training, and inference.
 
 
-"Setting up notebook", "Imports" and "Setting up WandB" are mandatory for every use of the notebook.
+- "Setting up notebook", "Imports" and "Setting up WandB" are mandatory for every use of the notebook.
 
-Every Section, apart from the mandatory ones, contains a configuration subsection where you can configure the parameters as you wish.
+- Every Section, apart from the mandatory ones, contains a configuration subsection where you can configure the parameters as you wish.
 
-"Loading + Tokenizing Dataset" is mandatory for running the hyperparmeter sweeps
+- "Loading + Tokenizing Dataset" is mandatory for running the hyperparmeter sweeps
+
+- This was created, and meant to run on "Google Colab", changing environments may require adjustments.
+
+- The code is set up in a way that automatically downloads the required dependencies, but to this manually, run the following command:
+
+```
+pip install transformers datasets evaluate accelerate peft wandb
+```
 
 
 ## 🔗 References
