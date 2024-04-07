@@ -56,8 +56,7 @@ The dataset we used was specifically tailored for song sentiment analysis. It is
 composed of 150k song lyrics, author name, and their valence parameter, which
 is a measurement of the songs positiveness that is computed using Spotify’s
 algorithm. We only needed the lyrics and their valence.
-For the purposes of our project we took a subset of the data: For the hyperpa-
-rameter tuning we took 10% of the data and split it to training/validation/test
+For the purposes of our project we took a subset of the data: For the hyperparameter tuning we took 10% of the data and split it to training/validation/test
 with a ratio of 60/20/20. A small subset allowed us to perform many tests in a
 reasonable amount of time.
 For the final training of the model we chose to take 40% of the data, around
