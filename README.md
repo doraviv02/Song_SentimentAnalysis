@@ -28,7 +28,7 @@ To tackle the computational challenges, we employ the Low Rank Adaptation (LoRA)
 BERT (Bidirectional Encoder Representations from Transformers) is an NLP model developed by Google. The main innovation of BERT is its capability of bidirectional understanding of textual contexts. BERT can capture the nuances and complexities of language by considering both preceding and succeeding words in a sentence, enabling it to generate highly accurate  representations of words. 
 
 ### LoRA
-<p float="center>
+<p float="center">
   <img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/architecture.png" width="500">
 </p>
 
