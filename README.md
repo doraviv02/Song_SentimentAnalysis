@@ -3,6 +3,8 @@
 
 Fine-tuning of BERT model for the purposes of Sentiment Analysis
 
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Concept.png" width="400">
+
 ## Table of Contents
 
 - Introduction
