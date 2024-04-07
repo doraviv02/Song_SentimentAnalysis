@@ -100,7 +100,10 @@ There is a lot to be done in regard to improvements to our model in order to bet
 
 ## How to Run
 The notebook is divided into sections. Depending on the use case, run each section independently.
+
+
 "Setting up notebook", "Imports" and "Setting up WandB" are mandatory for every use of the notebook.
+
 Every Section, apart from the mandatory ones, contains a configuration subsection where you can configure the parameters as you wish.
 
 
