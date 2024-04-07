@@ -45,7 +45,7 @@ The idea behind a Bayesian hyperparameter search is to build a probabilistic mod
 ### Hugging Face 🤗
 
 Hugging Face is a framework for building applications using machine learning systems. The framework is especially optimized for NLP tasks and specifically working with Transformers. We used hugging face throughout the entire project - from importing the pretrained BERT model, integrating the LoRA method, and connecting to wandb in order to perform the hyperparameter tuning. The (relative) simplicity of using hugging face allowed to abstract the fine details on focus on the high-level concepts we were trying to implement in our project.
-[![portfolio](https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-with-title.svg)](https://huggingface.co/)
+
 
 ## Ethics
 
@@ -77,6 +77,9 @@ with a ratio of 60/20/20. A small subset allowed us to perform many tests in a
 reasonable amount of time.
 For the final training of the model we chose to take 40% of the data, around
 60k songs, and divide them up to train/test with a ratio of 80/20.
+
+
+
 
 
 ## Conclusion and Future Work
