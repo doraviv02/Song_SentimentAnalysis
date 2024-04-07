@@ -68,7 +68,7 @@ For the final training of the model we chose to take 40% of the data, around
 
 ### Hyperparameter Tuning:
 
-<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Hyperparameter.png" width="1000">
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Hyperparameters.png" width="1000">
 
 Running 12 trials of tuning while adjust the learning rate, weight decay, scheduler and LoRA rank.
 
