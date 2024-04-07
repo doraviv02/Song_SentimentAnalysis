@@ -112,6 +112,10 @@ The notebook is divided into sections. Depending on the use case, run each secti
 pip install transformers datasets evaluate accelerate peft wandb
 ```
 
+You can use our trained model weights for BERT with no LoRA (only the regressive classifier was trained), and BERT with LoRA:
+(https://drive.google.com/drive/folders/1hXvFDb-d3EOB49B7-f4xJEoWPxkVHAL3?usp=sharing)
+
+
 
 ## 🔗 References
 [1] [150K Lyrics Labeled with Spotify Valence](https://www.kaggle.com/datasets/edenbd/150k-lyrics-labeled-with-spotify-valence) 
