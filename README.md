@@ -80,8 +80,8 @@ We chose the best trial, which did not display early overfitting and trained usi
 Comparing our architecture with a frozen BERT model with trained regression head:
 
 <p float="left">
-  <img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Train.png" width="450">
-  <img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Test.png" width="450">
+  <img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Train.png" width="480">
+  <img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Test.png" width="480">
 </p>
 
 
