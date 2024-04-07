@@ -25,7 +25,7 @@ To tackle the computational challenges, we employ the Low Rank Adaptation (LoRA)
 
 ### LoRA
 
-<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/architecture.png" width="200">
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/architecture.png" width="600">
 
 ![Architecture](https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/architecture.png width=200)
 
