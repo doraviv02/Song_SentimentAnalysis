@@ -99,7 +99,7 @@ There is a lot to be done in regard to improvements to our model in order to bet
  - Our final model's RMSE on the test set was. An interesting experiment is to quantize our regression model result (i.e. take the regression result and assign a label based on where it falls between 0 and 1) based on this RMSE and compare them to a model trained specifically for classification. We would expect to get good results if the classification model's number of labels N satisfies: $$N = \frac{1}{RMSE}$$
 
 ## How to Run
-The notebook is divided into sections. Depending on the use case, run each section independently.
+The notebook is divided into sections. Depending on the use case, run each section independently. You can run hyperparameter Sweep (optimization), training, and inference.
 
 
 "Setting up notebook", "Imports" and "Setting up WandB" are mandatory for every use of the notebook.
@@ -110,8 +110,7 @@ Every Section, apart from the mandatory ones, contains a configuration subsectio
 ## 🔗 References
 [1] [150K Lyrics Labeled with Spotify Valence](https://www.kaggle.com/datasets/edenbd/150k-lyrics-labeled-with-spotify-valence) 
 
-[2] [BERT: Pre-training of Deep Bidirectional Transformers for Language Un-
-derstanding](https://arxiv.org/pdf/1810.04805.pdf) 
+[2] [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf) 
 
 [3] [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2106.09685.pdf) 
 
