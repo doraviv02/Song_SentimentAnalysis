@@ -86,7 +86,16 @@ Comparing our architecture with a frozen BERT model with trained regression head
 
 
 ## Conclusion and Future Work
+Our results provide some interesting outlooks:
+ - There is a very weak correlation (compared to other parameters) between the LoRA rank and the model's performance. This indicates that although the LoRA module is effective at improving the training process, low rank is sufficient.
+ - We observe overfitting at around the 10th epoch, even after hyperparameter optimization. Further testing could provide insight.
+ - Our model is an improvement to the pretrained BERT model, but there is still much to be done.
 
+\n
+There is a lot to be done in regard to improvements to our model in order to better perform the sentiment analysis task, as well as many interesting experiments. Some suggestions are:
+ - item Analysis of the over-fitting runs and finding their common characteristics.
+ - item Using the analysis provided by W\&B, re-run the hyperparameter search and replace weakly-correlated hyper hyperparameters with some that might have a stronger correlation (for example LoRA's alpha and dropout parameter).
+ - item Our final model's RMSE on the test set was. An interesting experiment is to quantize our regression model result (i.e. take the regression result and assign a label based on where it falls between 0 and 1) based on this RMSE and compare them to a model trained specifically for classification. We would expect to get good results if the classification model's number of labels N satisfies: $$N = \frac{1}{RMSE}$$
 
 ## 🔗 References
 [1] [150K Lyrics Labeled with Spotify Valence](https://www.kaggle.com/datasets/edenbd/150k-lyrics-labeled-with-spotify-valence) 
