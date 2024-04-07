@@ -78,9 +78,21 @@ reasonable amount of time.
 For the final training of the model we chose to take 40% of the data, around
 60k songs, and divide them up to train/test with a ratio of 80/20.
 
+## Hyperparameter Tuning:
+
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Hyperparameter.png" width="400">
+
+Running 12 trials of tuning while adjust the learning rate, weight decay, scheduler and LoRA rank.
+
+We chose the best trial, which did not display early overfitting and trained using his parameters for 12 epochs:
+
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Training_Model.png" width="400">
 
 
+Comparing our architecture with a frozen BERT model with trained regression head:
 
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Train.png" width="200">
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Test.png" width="200">
 
 ## Conclusion and Future Work
 
