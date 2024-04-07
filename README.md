@@ -91,7 +91,8 @@ Our results provide some interesting outlooks:
  - We observe overfitting at around the 10th epoch, even after hyperparameter optimization. Further testing could provide insight.
  - Our model is an improvement to the pretrained BERT model, but there is still much to be done.
 
-\n
+
+
 There is a lot to be done in regard to improvements to our model in order to better perform the sentiment analysis task, as well as many interesting experiments. Some suggestions are:
  - item Analysis of the over-fitting runs and finding their common characteristics.
  - item Using the analysis provided by W\&B, re-run the hyperparameter search and replace weakly-correlated hyper hyperparameters with some that might have a stronger correlation (for example LoRA's alpha and dropout parameter).
