@@ -98,6 +98,12 @@ There is a lot to be done in regard to improvements to our model in order to bet
  - Using the analysis provided by W\&B, re-run the hyperparameter search and replace weakly-correlated hyper hyperparameters with some that might have a stronger correlation (for example LoRA's alpha and dropout parameter).
  - Our final model's RMSE on the test set was. An interesting experiment is to quantize our regression model result (i.e. take the regression result and assign a label based on where it falls between 0 and 1) based on this RMSE and compare them to a model trained specifically for classification. We would expect to get good results if the classification model's number of labels N satisfies: $$N = \frac{1}{RMSE}$$
 
+## How to Run
+The notebook is divided into sections. Depending on the use case, run each section independently.
+"Setting up notebook", "Imports" and "Setting up WandB" are mandatory for every use of the notebook.
+Every Section, apart from the mandatory ones, contains a configuration subsection where you can configure the parameters as you wish.
+
+
 ## 🔗 References
 [1] [150K Lyrics Labeled with Spotify Valence](https://www.kaggle.com/datasets/edenbd/150k-lyrics-labeled-with-spotify-valence) 
 
