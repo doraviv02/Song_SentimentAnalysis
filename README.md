@@ -80,20 +80,20 @@ For the final training of the model we chose to take 40% of the data, around
 
 ## Hyperparameter Tuning:
 
-<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Hyperparameter.png" width="800">
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Hyperparameter.png" width="1000">
 
 Running 12 trials of tuning while adjust the learning rate, weight decay, scheduler and LoRA rank.
 
 We chose the best trial, which did not display early overfitting and trained using his parameters for 12 epochs:
 
-<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Training_Model.png" width="800">
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Training_Model.png" width="1000">
 
 
 Comparing our architecture with a frozen BERT model with trained regression head:
 
 <p float="left">
-  <img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Train.png" width="400">
-<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Test.png" width="400">
+  <img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Train.png" width="500">
+<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/Comparing_Test.png" width="500">
 </p>
 
 ## Conclusion and Future Work
