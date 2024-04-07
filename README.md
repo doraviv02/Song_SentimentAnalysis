@@ -24,6 +24,8 @@ To tackle the computational challenges, we employ the Low Rank Adaptation (LoRA)
 ### BERT
 
 ### LoRA
+
+![Architecture](images/architecture.png)
 ![LoRA](https://miro.medium.com/v2/resize:fit:1400/1*BX6LodNG9GTfpoGBO2FAuA.png)
 
 ### Loss Function
