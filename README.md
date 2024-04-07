@@ -106,6 +106,8 @@ The notebook is divided into sections. Depending on the use case, run each secti
 
 Every Section, apart from the mandatory ones, contains a configuration subsection where you can configure the parameters as you wish.
 
+"Loading + Tokenizing Dataset" is mandatory for running the hyperparmeter sweeps
+
 
 ## 🔗 References
 [1] [150K Lyrics Labeled with Spotify Valence](https://www.kaggle.com/datasets/edenbd/150k-lyrics-labeled-with-spotify-valence) 
