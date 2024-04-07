@@ -28,8 +28,9 @@ To tackle the computational challenges, we employ the Low Rank Adaptation (LoRA)
 BERT (Bidirectional Encoder Representations from Transformers) is an NLP model developed by Google. The main innovation of BERT is its capability of bidirectional understanding of textual contexts. BERT can capture the nuances and complexities of language by considering both preceding and succeeding words in a sentence, enabling it to generate highly accurate  representations of words. 
 
 ### LoRA
-
-<img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/architecture.png" width="400">
+<p float="center>
+  <img src="https://github.com/doraviv02/Song_SentimentAnalysis/blob/main/images/architecture.png" width="500">
+</p>
 
 LoRA (Low Rank Adaptation) is a technique used to streamline the training process for large models like BERT in the context of sentiment analysis. It reduces the parameter space of the model, making it more computationally efficient without sacrificing performance. By leveraging low-rank matrix factorization, LoRA effectively compresses the model while preserving its contextual understanding capabilities. This allows for faster training and inference times, making it ideal for large-scale sentiment analysis tasks.
 
