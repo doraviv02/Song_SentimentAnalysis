@@ -96,7 +96,7 @@ derstanding](https://arxiv.org/pdf/1810.04805.pdf)
 
 [3] [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2106.09685.pdf) 
 
-[4] [Hugging Face](https://huggingface.co/docs/transformers/en/tasks/sequence\_classification)
+[4] [Hugging Face - Text Classification](https://huggingface.co/docs/transformers/en/tasks/sequence\_classification)
 
 ## Authors
 
